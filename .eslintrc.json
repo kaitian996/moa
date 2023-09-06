@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/mwts/",
+  "ignorePatterns": ["node_modules", "packages/version", "dist", "test"],
+  "rules": {
+    "no-control-regex": "off"
+  },
+  "env": {
+    "jest": true
+  }
+}
